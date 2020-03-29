@@ -1,0 +1,70 @@
+#userinput{
+  background-color: #cae8d5;
+}
+.container-fluid{
+  width:33.33%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+
+}
+.header{
+  padding-top: 10px;
+}
+.nameHead{
+  font-family: 'Bellota', cursive;
+  text-align: center;
+  font-weight: 500;
+}
+#resultcal{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.smiley{
+  font-size: 5rem;
+}
+.monitor{
+  font-family: 'Comic Neue', cursive;
+  font-size: 2rem;
+}
+
+.inputFood{
+  width:60%;
+  display: inline;
+}
+.inputFoodcal{
+  width:20%;
+  display:inline;
+}
+.userFoodInput{
+  text-align: right;
+}
+.addFood{
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #204051;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 6px;
+  border-width: 0;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+input{
+  text-align: center;
+}
+.cal{
+  width:15%;
+  text-align: center;
+}
+.userEat{
+  width:45%;
+}
+.fas{
+  padding: 10px;
+}
+p{
+  margin-bottom: 0;
+}

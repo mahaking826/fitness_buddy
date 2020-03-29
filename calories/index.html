@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calories</title>
+<link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/4298b3fd63.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- this below section contains the user input -->
+  <section id='userinput'>
+    <div class="header">
+      <h2 class='nameHead'>My Fitness Buddy</h2>
+    </div>
+
+
+    <div class="container-fluid">
+      <h2>Measure Your Calories </h2>
+      <p>Gender</p>
+      <form>
+        <form>
+          <label>
+            <input type="radio" name="sex" value="male" id='male'>    <i class="fas fa-male fa-lg"></i></label>
+
+          <label>
+            <input type="radio" name="sex" value="female" id='female'>    <i class="fas fa-female fa-lg"></i></label>
+        </form>
+      </form>
+
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Age</label>
+          <input type="number" class="form-control" id="inputAge" aria-describedby="emailHelp" placeholder="in years">
+
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Weight</label>
+          <input type="number" class="form-control" id="inputWeight" placeholder="in kg">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Height</label>
+          <input type="number" step='0.01' class="form-control" id="inputHeight" aria-describedby="emailHelp"  placeholder='in centimetres'>
+
+        </div>
+        <button type="button" class="btn btn-primary btn-block" id='result'>Submit</button>
+      </form>
+    </div>
+    <div class="container-fluid " id='resultcal'>
+
+    </div>
+  </section>
+
+  <!-- this below section contains the table for the user to input the details of the eatables -->
+
+<section class='userTable'>
+  <div class="container-fluid monitor">
+    <p id='comment'>Hey nice to c u... <br />I am here to monitor what u eat </p>
+    <span class='smiley' id='smiley'>😀</span>
+
+
+  </div>
+  <div class="container-fluid userEat">
+
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Time</th>
+          <th scope="col">Food</th>
+          <th scope="col" class="cal">Calories</th>
+
+        </tr>
+      </thead>
+      <tbody>
+
+
+
+      </tbody>
+    </table>
+    <div class="userFoodInput ">
+      <input type="text" name="" value="" placeholder="Food" class="form-control inputFood"id='inputFood'>
+      <input type="number" name="" value="" placeholder="Calories" class="form-control inputFoodcal"id='inputFoodcal'>
+      <button type="button" name="button" class="addFood" >+</button>
+    </div>
+
+  </div>
+
+
+</section>
+
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
